@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Safe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="noidung1_about_device">Safe là đề tài nghiên cứu khóa luận đồ án do sinh viên Nguyễn Văn Quân và giáo viên
+    hướng dẫn Hồ Kim Giàu thực hiện. </string>
+    <string name="noidung2_aboutdevice">Safe sử dụng công nghệ Bluetooth năng lượng thấp (Bluetooth low energy) để tiến hàng quét và ghi
+    nhận các tiếp xúc gần trong phạm vi khoảng cách cho phép. Ứng dụng sẽ cảnh báo nếu người dùng có tiếp xúc gần với các ca nhiễm
+    , nghi nhiễm hoặc người có tiếp xúc gần với các ca nghi nhiễm hoặc nhiễm.</string>
+    <string name="noidung3_aboutdevice">Dữ liệu lịch sử tiếp xúc được lưu trên máy chủ firebase với độ an toàn và bảo mật cao. Dữ liệu
+    này chỉ được sử dụng phục vụ mục đích của cơ quan ý tế hoặc cơ quan có thẩm quyền khi có sự đồng ý của người dùng.</string>
+    <string name="noidung4_aboutdevice">Safe chỉ lưu lịch sử tiếp xúc của người dùng và không lưu lịch sử vị trí hay bất kì dữ liệu nào khác.
+    Safe cũng không yêu cầu các quyền truy cập cá nhân như danh bạn, ảnh ....</string>
+    <string name="noidung_dieukhoan1">Safe là ứng dụng thuộc đề tài nghiên cứu đồ án do sinh viên Nguyễn Văn Quân cùng
+    thầy Hồ Kim Giàu thực hiện. Ứng dụng được thực hiện trên thiết bị điện thoại di động thông minh.</string>
+</resources>

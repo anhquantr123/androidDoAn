@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.login_taikhoan">
+
+    <View
+        android:id="@+id/background_login_nen"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_background_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/color_login"
+        app:layout_constraintStart_toStartOf="@+id/background_login_nen"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_safe" />
+
+    <EditText
+        android:id="@+id/txt_input_email_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/btn_round_blue"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="9dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/txt_login_email_textview"
+        app:layout_constraintStart_toStartOf="@+id/txt_login_email_textview"
+        app:layout_constraintTop_toBottomOf="@+id/txt_login_email_textview" />
+
+    <TextView
+        android:id="@+id/txt_login_email_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        android:paddingStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background_login_nen" />
+
+    <TextView
+        android:id="@+id/txt_login_password_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="5dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/txt_input_email_login"
+        app:layout_constraintStart_toStartOf="@+id/txt_input_email_login"
+        app:layout_constraintTop_toBottomOf="@+id/txt_input_email_login" />
+
+    <EditText
+        android:id="@+id/txt_input_password_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/btn_round_blue"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="9dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/txt_login_password_textview"
+        app:layout_constraintStart_toStartOf="@+id/txt_login_password_textview"
+        app:layout_constraintTop_toBottomOf="@+id/txt_login_password_textview" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_create_account">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_login">
+
+            <ImageButton
+                android:id="@+id/btn_login"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/color_login"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_next" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txt_create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tạo tài khoản mới!"
+        app:layout_constraintEnd_toEndOf="@+id/txt_input_password_login"
+        app:layout_constraintTop_toBottomOf="@+id/txt_input_password_login" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Liên hệ hỗ trợ 0928 314 750."
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
